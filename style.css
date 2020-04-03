@@ -2,6 +2,16 @@ body {
     background-color: lightskyblue;
 }
 
+.navbar-brand {
+    font-family: 'Pacifico', cursive;
+    font-size: 40px;
+}
+
+.nav-item {
+    font-family: 'Pacifico', cursive;
+    font-size: 20px;    
+}
+
 .card {
     margin-top: 30px;
     margin-bottom: 30px;
@@ -10,29 +20,114 @@ body {
 }
 
 .card-title {
-    font-size: 20pt;
+    font-size: 18pt;
 }
 
 
+/*media queries for about me page*/
 
-
-@media screen and (max-width:768px){
-#image-1 {
-    max-width: 350px;
-    max-height: 350px;
+    @media screen and (max-width:992px){
+    #image-1 {
+        max-width: 650px;
+        max-height: 650px;
 
 }}
 
-@media screen and (max-width:640px) {
-#image-1 {
-    max-width: 150px;
-    max-height: 150px;
+    @media screen and (max-width:600px) {
+    #image-1 {
+        max-width: 350px;
+        max-height: 350px;
 }}
 
-.container-3 {
+/*media queries for protfilio icons*/
+
+    @media screen and (max-width:992px){
+    .portfolio-icons {
+        max-width: 150px;
+        max-height: 150px;
+}}
+
+    @media screen and (max-width:600px){
+    .portfolio-icons {
+        max-width: 150px;
+        max-height: 150px;
+}}
+
+footer {
     text-align: center;
-    background-color: #f8f9fa;
+    background-color: white;
+    font-family: 'Pacifico', cursive;
     height: 50px;
     padding-top: 15px;
 
+}
+
+.h1-responsive {
+    text-align: center;
+}
+
+/*stylesheet contact page*/
+
+* {
+    box-sizing: border-box;
+  }
+  
+
+input[type=text], select, textarea {
+    width: 100%;
+    padding: 12px;
+    border: 1px solid #ccc;
+    margin-top: 6px;
+    margin-bottom: 16px;
+    resize: vertical;
+  }
+  
+input[type=submit] {
+    background-color: gray;
+    color: white;
+    padding: 12px 20px;
+    border: none;
+    cursor: pointer;
+  }
+  
+input[type=submit]:hover {
+    background-color: lightgray;
+  }
+  
+
+.container {
+    border-radius: 5px;
+    background-color: #f2f2f2;
+    padding: 10px;
+    margin-top: 30px;
+  }
+
+.column {
+    float: left;
+    width: 50%;
+    margin-top: 6px;
+    padding: 20px;
+  }
+  
+
+.row:after {
+    content: "";
+    display: table;
+    clear: both;
+  }
+  
+/*media queries contact page*/
+
+@media screen and (max-width: 992px) {
+    .column, input[type=submit] {
+        max-width: 100%;
+        margin-top: 0;
+    }
+}
+
+@media screen and (max-width: 600px) {
+    .column, input[type=submit] {
+        max-width: 100%;
+        margin-top: 0;
+        }
 }
