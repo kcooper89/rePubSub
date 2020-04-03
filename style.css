@@ -1,26 +1,38 @@
-#body {
-    background-color: slategrey;
+body {
+    background-color: lightskyblue;
 }
-
-.container-fluid {
-    background-color: turquoise;
-    text-align: center;
-    height: 50px;
-    margin: 0px;
-    padding: 0px;
-    color: white;
-    font-size: 30px;
-    font-weight: bold;
-    }
 
 .card {
-    padding: 20px;
-    border: solid;
+    margin-top: 30px;
+    margin-bottom: 30px;
+    margin-right: 30px;
+    margin-left: 30px;
 }
-
-
 
 .card-title {
-    font-size: 30px;
+    font-size: 20pt;
 }
 
+
+
+
+@media screen and (max-width:768px){
+#image-1 {
+    max-width: 350px;
+    max-height: 350px;
+
+}}
+
+@media screen and (max-width:640px) {
+#image-1 {
+    max-width: 150px;
+    max-height: 150px;
+}}
+
+.container-3 {
+    text-align: center;
+    background-color: #f8f9fa;
+    height: 50px;
+    padding-top: 15px;
+
+}
