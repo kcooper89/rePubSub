@@ -2,6 +2,8 @@ body {
     background-color: lightskyblue;
 }
 
+
+
 .navbar-brand {
     font-family: 'Pacifico', cursive;
     font-size: 40px;
@@ -21,9 +23,12 @@ body {
 
 .card-title {
     font-size: 18pt;
+    font-family: 'Quicksand', sans-serif;
 }
 
-
+.paragraph-1 {
+    font-family: 'Quicksand', sans-serif;
+}
 /*media queries for about me page*/
 
     @media screen and (max-width:992px){
@@ -100,6 +105,7 @@ input[type=submit]:hover {
     background-color: #f2f2f2;
     padding: 10px;
     margin-top: 30px;
+    margin-bottom: 30px;
   }
 
 .column {
