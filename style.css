@@ -28,6 +28,7 @@ body {
 
 .paragraph-1 {
     font-family: 'Quicksand', sans-serif;
+    
 }
 /*media queries for about me page*/
 
@@ -88,7 +89,7 @@ input[type=text], select, textarea {
   }
   
 input[type=submit] {
-    background-color: gray;
+    
     color: white;
     padding: 12px 20px;
     border: none;
@@ -96,13 +97,13 @@ input[type=submit] {
   }
   
 input[type=submit]:hover {
-    background-color: lightgray;
+    background-color: white;
   }
   
 
 .container {
     border-radius: 5px;
-    background-color: #f2f2f2;
+    background-color: white;
     padding: 10px;
     margin-top: 30px;
     margin-bottom: 30px;
