@@ -1,8 +1,10 @@
+* {
+    box-sizing: border-box;
+  }
+
 body {
     background-color: lightskyblue;
 }
-
-
 
 .navbar-brand {
     font-family: 'Pacifico', cursive;
@@ -30,34 +32,6 @@ body {
     font-family: 'Quicksand', sans-serif;
     
 }
-/*media queries for about me page*/
-
-    @media screen and (max-width:992px){
-    #image-1 {
-        max-width: 650px;
-        max-height: 650px;
-
-}}
-
-    @media screen and (max-width:600px) {
-    #image-1 {
-        max-width: 350px;
-        max-height: 350px;
-}}
-
-/*media queries for protfilio icons*/
-
-    @media screen and (max-width:992px){
-    .portfolio-icons {
-        max-width: 150px;
-        max-height: 150px;
-}}
-
-    @media screen and (max-width:600px){
-    .portfolio-icons {
-        max-width: 150px;
-        max-height: 150px;
-}}
 
 footer {
     text-align: center;
@@ -65,19 +39,13 @@ footer {
     font-family: 'Pacifico', cursive;
     height: 50px;
     padding-top: 15px;
-
 }
 
 .h1-responsive {
     text-align: center;
 }
 
-/*stylesheet contact page*/
-
-* {
-    box-sizing: border-box;
-  }
-  
+/*stylesheet contact page*/ 
 
 input[type=text], select, textarea {
     width: 100%;
@@ -116,25 +84,36 @@ input[type=submit]:hover {
     padding: 20px;
   }
   
-
 .row:after {
     content: "";
     display: table;
     clear: both;
   }
-  
-/*media queries contact page*/
 
-@media screen and (max-width: 992px) {
+/*media queries*/
+img {
+    width:100%;
+}
+@media screen and (max-width:992px){
+  
+    .portfolio-icons {
+        max-width: 150px;
+        max-height: 150px;
+    }
     .column, input[type=submit] {
         max-width: 100%;
         margin-top: 0;
     }
 }
 
-@media screen and (max-width: 600px) {
+@media screen and (max-width:600px) {
+
+    .portfolio-icons {
+        max-width: 150px;
+        max-height: 150px;
+    }
     .column, input[type=submit] {
         max-width: 100%;
         margin-top: 0;
-        }
+    }
 }
